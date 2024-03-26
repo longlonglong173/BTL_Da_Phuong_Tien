@@ -3,4 +3,3 @@ deployment:
  tasks:
  - export DEPLOYPATH=/home/longcom/repositories/BTL_Da_Phuong_Tien/
  - /bin/cp index.html $DEPLOYPATH
- - /bin/cp style.css $DEPLOYPATH
