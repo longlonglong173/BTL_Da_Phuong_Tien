@@ -1,5 +1,6 @@
+---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/azdigiweb/public_html/
-    - /bin/cp -rf wp-content test
-    - /bin/cp -rf images test
+    - export DEPLOYPATH=/home/longcom/repositories/BTL_Da_Phuong_Tien
+    - /bin/cp -rf wp-content $DEPLOYPATH
+    - /bin/cp -rf images $DEPLOYPATH
