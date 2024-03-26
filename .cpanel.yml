@@ -1,0 +1,5 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/azdigiweb/public_html/
+    - /bin/cp -rf wp-content test
+    - /bin/cp -rf images test
